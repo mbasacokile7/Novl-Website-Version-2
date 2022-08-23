@@ -57,7 +57,8 @@ body{
 
 .Form-text{
     font-family: 'Fredoka One', cursive;
-    color: #cf291D;
+    color: whitesmoke;
+    text-shadow: 5px 5px 3px black;
   }
   
   #Form-El{
