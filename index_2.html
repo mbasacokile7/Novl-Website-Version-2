@@ -14,8 +14,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Orbitron:wght@800;900&family=Permanent+Marker&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/99919bcb60.js" crossorigin="anonymous"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/3.2.1/assets/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="css/styles.css">
+    
     <title>NOVL</title>
+    
 </head>
 <body>
     <!------------------------------------------- Navigation Bar ------------------------------------------->
@@ -46,7 +50,7 @@
           </ul>
         
         </div>
-      </nav>
+    </nav>
 
 
 
@@ -54,66 +58,25 @@
 
       <section id="Landing-Page">
 
-        <!-------------- Quiz Div -------------->
-
-        <div class="landing-page-quiz">
-
-            <div class="landing-page-quiz-content" >
-                <h1 class = "Landing-Page-Heading">HMB,LMR</h1>
-                <br>
-                <h2 class = "Landing-Page-Text">Enter the required password to gain access</h2>    
-                  
-                <input type="text" id="input-el" placeholder = "Enter Password"> <br>
-                <br>
-                <button type="button" name="button" onclick="submit_fn()" id="submit-btn" class = "button-submit">SUBMIT</button>
-
-            </div>
-           
-        </div>
-
-         <!-------------- Form Div -------------->
-         <div class="landing-page-form ">
-            <div class="landing-page-quiz-form" >
-                <h2 class = "Landing-Page-Text">ACCESS GRANTED</h2>
-                <br>
-                <h3 class = "Form-text">To claim your prize, enter required information</h3>
-                <br>
-          
-                <form action="">
-                  <label for="fname" class = "Form-Label">First Name:</label><br>
-                  <input type="text" id="Form-El" name="fname"><br>
-                  <label for="lname" class = "Form-Label">Last Name:</label><br>
-                  <input type="text" id="Form-El" name="lname"><br>
-                  <label for="lname" class = "Form-Label">Email Address:</label><br>
-                  <input type="text" id="Form-El" name="lname"><br><br>
-                  <input type="submit" value="Submit" id="submit-btn">
-                
-                </form>
-
-            </div>
-
-
-        </div>
-
 
         <!-------------- Actual Landing Page Div -------------->
         <div class="container-fluid actual-landing-page">
           <div class="container">
-            <div class="row">
+            <div class="row d-flex flex-wrap align-items-center">
               <div class="novl-image col-6-sm">
+                <img src="novl-image-modified.png" alt="novl-image" style="width: 80%;" class="novl-image">
 
               </div>
               <div class="novl-text col-6-sm">
                 <div>
-
+                  <h2 class="novl-text-1">NOVL.</h2>
+                  <h1 class="novl-text-2">Welcome to my website</h1>
+                  <h3 class="novl-text-2">Checkout my catalogue below</h3>
+                  <button id="new-btn">New Album</button><button id="new-btn">Music</button>
                   
                 </div>
 
               </div>
-
-
-
-
             </div>
           </div>
         </div>
@@ -127,6 +90,48 @@
     <!------------------------------------------- Discography Section ------------------------------------------->
 
       <section id="Discography-Page">
+        <h1>Discography</h1>
+
+        <div class="container">
+
+          <div class="row">
+
+            <div class="albums-div">
+              <div class="disc-icon">
+                
+              </div>
+              <div class="disc-text">
+
+              </div>
+
+            </div>
+
+            <div class="eps-div">
+              <div class="disc-icon">
+               
+                
+              </div>
+              <div class="disc-text">
+                
+
+              </div>
+              
+            </div>
+
+            <div class="singles-div">
+              <div class="disc-icon">
+
+              </div>
+              <div class="disc-text">
+
+              </div>
+              
+            </div>
+
+          </div>
+
+
+        </div>
 
 
       </section>
