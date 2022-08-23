@@ -114,6 +114,24 @@ body{
 }
   
 
+/* ------------------------------------------------------------------------------ Landing Page -------------------------------------------------------------------------------- */
+
+.novl-text-1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 90px;
+}
+
+.novl-text-2{
+    font-family: 'Fredoka One', cursive;
+    padding-top:10px;
+    
+}
+
+/* ------------------------------------------------------------------------------ Discography Page -------------------------------------------------------------------------------- */
+#Discography-Page{
+    color: white;
+}
+
 
 /* ------------------------------------------------------------------------------ Media Queries -------------------------------------------------------------------------------- */
 
@@ -123,6 +141,32 @@ body{
     .nav-items-div{
         margin-right:0 ;
     }
+    .novl-image{
+        margin-top: 20px;
+    }
+
+    .novl-text{
+        margin-top: 50px;
+        
+    }
+
+    #new-btn{
+        padding: 20px 50px 20px 50px;
+        margin: 20px 10px 10px 0px;
+        border-radius: 23px;
+        background: black;
+        color: white;
+        font-weight: bold;
+        border: none;
+        transition:  0.3s ease-out !important;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+
+
+
+
+
  }
 
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
@@ -140,6 +184,17 @@ body{
     .nav-items-div{
         margin-right:100px ;
     }
+    .novl-image{
+        margin-top: 100px;
+        text-align: left;
+    }
+
+    .novl-text{
+        margin-top: 100px;
+        text-align: left;
+    }
+
+    
    
 }
 
@@ -152,6 +207,33 @@ body{
     .landing-page-quiz-content{
         margin: 250px 50px 0 50px;
     }
+
+    .novl-image{
+        margin-top: 100px;
+        text-align: left;
+    }
+
+    .novl-text{
+        margin-top: 100px;
+        text-align: left;
+    }
+
+    #new-btn{
+        padding: 20px 50px 20px 50px;
+        margin: 20px 10px 50px 0px;
+        border-radius: 23px;
+        background: black;
+        color: white;
+        font-weight: bold;
+        border: none;
+        transition:  0.3s ease-out !important;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+
+
+
+
 }
 
 /* hi-res laptops and desktops */ 
@@ -163,6 +245,32 @@ body{
     .landing-page-quiz-content{
         margin: 250px 50px 0 50px;
     }
+
+    .novl-image{
+        margin-top: 100px;
+        text-align: left;
+    }
+
+    .novl-text{
+        margin-top: 100px;
+        text-align: left;
+    }
+
+    #new-btn{
+        padding: 20px 50px 20px 50px;
+        margin: 20px 10px 50px 0px;
+        border-radius: 23px;
+        background: black;
+        color: white;
+        font-weight: bold;
+        border: none;
+        transition:  0.3s ease-out !important;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+
+
+
  }
 
 
