@@ -29,7 +29,7 @@ body{
  /* ------------------------------------------------------------------------------ Landing Page Section -------------------------------------------------------------------------------- */
  #Landing-Page{
     color: white;
-    height: 100vh !important;
+    /*height: 100vh !important;*/
  }
  
  
@@ -119,11 +119,13 @@ body{
 .novl-text-1{
     font-family: 'Permanent Marker', cursive;
     font-size: 90px;
+    text-shadow: 5px 5px 3px black;
 }
 
 .novl-text-2{
     font-family: 'Fredoka One', cursive;
     padding-top:10px;
+    text-shadow: 5px 5px 5px black;
     
 }
 
@@ -131,6 +133,26 @@ body{
 #Discography-Page{
     color: white;
 }
+
+.disc-cont{
+    align-items: center;
+}
+
+
+/* ---------- Discography Images -----------*/
+
+.disc-img{ 
+    width : 300px;
+    height : 300px;
+    transition: all .4s ease-in-out; 
+    margin: 10px 10px 0 10px;
+    border-radius: 7.5%;
+}
+
+.disc-img:hover,.disc-img:active { 
+          transform: scale(1.2); 
+}
+  
 
 
 /* ------------------------------------------------------------------------------ Media Queries -------------------------------------------------------------------------------- */
@@ -161,6 +183,17 @@ body{
         transition:  0.3s ease-out !important;
         font-family: 'Orbitron', sans-serif;
     }
+    .disc-img{ 
+        width : 150px;
+        height : 150px;
+        transition: all .4s ease-in-out; 
+        margin: 10px 10px 0 10px;
+        border-radius: 7.5%;
+    }
+    
+    .disc-img:hover,.disc-img:active { 
+              transform: scale(1.2); 
+    }
 
 
 
@@ -177,6 +210,11 @@ body{
 
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
 @media (min-width:641px)  { 
+    .novl-text{
+        margin-top: 100px;
+        text-align: center;
+    }
+
 }
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */ 
@@ -185,13 +223,26 @@ body{
         margin-right:100px ;
     }
     .novl-image{
-        margin-top: 100px;
+        margin-top: 50px;
+        width : 500px;
+        height : 450px;
         text-align: left;
     }
 
     .novl-text{
         margin-top: 100px;
         text-align: left;
+    }
+    .disc-img{ 
+        width : 300px;
+        height : 300px;
+        transition: all .4s ease-in-out; 
+        margin: 10px 10px 0 10px;
+        border-radius: 7.5%;
+    }
+    
+    .disc-img:hover,.disc-img:active { 
+              transform: scale(1.2); 
     }
 
     
@@ -206,6 +257,14 @@ body{
 
     .landing-page-quiz-content{
         margin: 250px 50px 0 50px;
+    }
+
+    #Landing-Page{
+        height: 100vh !important;
+     }
+
+    .actual-landing-page{
+        margin-top: 80px;
     }
 
     .novl-image{
@@ -228,6 +287,17 @@ body{
         border: none;
         transition:  0.3s ease-out !important;
         font-family: 'Orbitron', sans-serif;
+    }
+    .disc-img{ 
+        width : 300px;
+        height : 300px;
+        transition: all .4s ease-in-out; 
+        margin: 10px 10px 0 10px;
+        border-radius: 7.5%;
+    }
+    
+    .disc-img:hover,.disc-img:active { 
+              transform: scale(1.2); 
     }
 
 
@@ -246,6 +316,10 @@ body{
         margin: 250px 50px 0 50px;
     }
 
+    #Landing-Page{
+        height: 100vh !important;
+     }
+
     .novl-image{
         margin-top: 100px;
         text-align: left;
@@ -258,7 +332,7 @@ body{
 
     #new-btn{
         padding: 20px 50px 20px 50px;
-        margin: 20px 10px 50px 0px;
+        margin: 20px 10px 0px 0px;
         border-radius: 23px;
         background: black;
         color: white;
@@ -266,6 +340,18 @@ body{
         border: none;
         transition:  0.3s ease-out !important;
         font-family: 'Orbitron', sans-serif;
+    }
+
+    .disc-img{ 
+        width : 300px;
+        height : 300px;
+        transition: all .4s ease-in-out; 
+        margin: 10px 10px 0 10px;
+        border-radius: 7.5%;
+    }
+    
+    .disc-img:hover,.disc-img:active { 
+              transform: scale(1.2); 
     }
 
 
