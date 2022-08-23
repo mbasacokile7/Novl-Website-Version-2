@@ -115,6 +115,40 @@ body{
   
 
 /* ------------------------------------------------------------------------------ Landing Page -------------------------------------------------------------------------------- */
+.Landing-Page-Heading{
+    padding: 50px 0 10px 0;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 5px 5px 3px black;
+    transition: font-size 2s;
+}
+
+.Landing-Page-Heading:hover, .Landing-Pag-Heading:active{
+    font-size : 70px;
+  }
+
+.Landing-Page-Text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 5px 5px 3px black;
+    color: whitesmoke;
+    font-family: 'Permanent Marker', cursive;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: 36;
+    animation-timing-function: ease-in-out;
+}
+  
+  @keyframes example {
+    0% {font-family: 'Fredoka One', cursive; }
+    20% {font-family: 'Lobster', cursive;}
+    40%  {font-family: 'Permanent Marker', cursive;}
+    0% {font-family: 'Fredoka One', cursive;}
+    20% {font-family: 'Lobster', cursive;}
+    100%  {font-family: 'Orbitron', sans-serif;}
+    
+  }
+  
 
 .novl-text-1{
     font-family: 'Permanent Marker', cursive;
@@ -132,6 +166,13 @@ body{
 /* ------------------------------------------------------------------------------ Discography Page -------------------------------------------------------------------------------- */
 #Discography-Page{
     color: white;
+}
+
+.section-headers{
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 5px 5px 5px black;
+    margin-bottom: 20px;
+    font-size: 50px;
 }
 
 .disc-cont{
@@ -152,6 +193,19 @@ body{
 .disc-img:hover,.disc-img:active { 
           transform: scale(1.2); 
 }
+
+.section-heading{
+    margin: 20px 0 20px 0;
+    color: #f0928b;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    transition: color 1.5s;
+    text-shadow: 5px 5px 5px black;
+  }
+  
+  .section-heading:hover, .section-heading:active{
+    color: #CBC3E3;
+  }
   
 
 
