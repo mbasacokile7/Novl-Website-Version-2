@@ -210,6 +210,8 @@ body{
   .section-heading:hover, .section-heading:active{
     color: #CBC3E3;
   }
+
+
   
 /* ------------------------------------------------------------------------------ HMBLMR Page -------------------------------------------------------------------------------- */
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -266,9 +268,18 @@ body{
     transform: rotateY(180deg);
   }
 
+/* ------------------------------------------------------------------------------ Merch Store -------------------------------------------------------------------------------- */
 
+header{
+    background-image: url("/novl-images/broken-prophet-3.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
 
-
+.header-text{
+    margin-top: 120px;
+}
 
 
 
